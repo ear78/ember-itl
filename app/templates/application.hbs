@@ -1,5 +1,10 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<header>
+    {{nav-comp}}
+</header>
+<div class="body">
+    {{outlet}}
+</div>
 
-{{outlet}}
+<footer style="background-color:lightgray;">
+    {{footer-comp}}
+</footer>
