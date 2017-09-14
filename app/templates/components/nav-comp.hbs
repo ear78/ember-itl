@@ -1,18 +1,29 @@
-<ul>
-    <li>{{#link-to 'about' class="button"}}
-            About
+<nav class="nav row">
+    <div class="left-nav medium-8 column">
+        {{#link-to 'home'}}<img class="logo" src="/assets/images/itl_single_logo_classic.svg" alt="">
         {{/link-to}}
-    </li>
-    <li>{{#link-to 'products' class="button"}}
-            Products
-        {{/link-to}}
-    </li>
-    <li>{{#link-to 'parts-service' class="button"}}
-            Parts &amp; Service
-        {{/link-to}}
-    </li>
-    <li>{{#link-to 'contact' class="button"}}
-            Contact
-        {{/link-to}}
-    </li>
-</ul>
+        <ul>
+            <li>{{#link-to 'about' class=""}}
+                    About
+                {{/link-to}}
+            </li>
+            <li>{{#link-to 'products' class=""}}
+                    Products
+                {{/link-to}}
+            </li>
+            <li>{{#link-to 'parts-service' class=""}}
+                    Parts &amp; Service
+                {{/link-to}}
+            </li>
+            <li>{{#link-to 'contact' class=""}}
+                    Contact
+                {{/link-to}}
+            </li>
+        </ul>
+    </div>
+
+    <div class="right-nav medium-4 column">
+        <img src="/assets/images/search_24px.svg" alt="">
+        <button class="login"type="button" name="button">Log In</button>
+    </div>
+</nav>
