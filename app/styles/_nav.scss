@@ -1,0 +1,48 @@
+// @import './app';
+
+nav {
+    display: flex;
+    background: $black;
+    height: 50px;
+    .logo {
+        width: 37px;
+        height: 37px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        &:hover {
+            opacity: .7;
+        }
+    }
+    ul {
+        display: flex;
+    }
+    li {
+        padding: 10px;
+    }
+    a {
+        text-transform: uppercase;
+        font-size: .85em;
+    }
+    .search {
+
+    }
+    .left-nav {
+        display: flex;
+        align-items: center;
+    }
+    .right-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .login {
+            margin-left: 10px;
+            color: #008c99;
+            border: 2px solid #008c99;
+            border-radius: 25px;
+            padding: 7px 20px;
+            text-transform: uppercase;
+            font-size: .85em;
+        }
+
+    }
+}

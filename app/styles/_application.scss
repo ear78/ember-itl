@@ -1,0 +1,24 @@
+/* main sass file */
+
+/* COLORS */
+$black: #101010;
+$white: #ffffff;
+$teal: #1a7f80;
+
+/* FOUNDATION RESETS */
+button {
+    margin: 0;
+}
+
+ul,li {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    color: $white;
+    margin: 0;
+    &:hover {
+        color: gray;
+    }
+}
