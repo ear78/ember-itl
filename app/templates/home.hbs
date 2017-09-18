@@ -1,6 +1,9 @@
-<div class="main-banner">
-    <h1>International Tower Lighting</h1>
-    <p>Obstruction Lighting, Design &amp; Manufacturing</p>
-</div>
-<h1>This is the home page</h1>
+{{main-banner}}
+
+<h1 class="basic-title">Featured Products</h1>
+
+
+{{#each model as |products|}}
+        {{featured-products product=products}}
+{{/each}}
 {{outlet}}
