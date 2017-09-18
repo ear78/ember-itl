@@ -2,21 +2,108 @@
     color: $white;
     background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)),  url('/assets/images/homepage_slider3.jpg');
     background-size: cover;
-    height: 450px;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    text-align: center;
+    text-align: left;
     padding-top: 100px;
     position: relative;
     text-shadow: 2px 4px 4px rgba(0,0,0,.4);
+    transition: all .2s ease;
     h1 {
         font-family: $montserrat;
         text-transform: uppercase;
+        max-width: 350px;
+    }
+    p {
+        max-width: 350px;
     }
     img {
         width: 120px;
         position: absolute;
         bottom: 15px;
         right: 15px;
+    }
+    .arrow-container {
+        display: none;
+        width: 35px;
+        margin: 85px auto 0;
+    }
+    .arrow-down {
+        width: 35px;
+        position: initial;
+        transform: translate3d(0,0,0);
+        animation-name: downArrow;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+    h1,p {
+        transition: all .2s ease;
+    }
+}
+
+@keyframes downArrow {
+    0% { transform: translate3d(0,0,0);}
+    50% { transform: translate3d(0,10px,0);}
+    100% {transform: translate3d(0,0,0);}
+}
+
+@media (min-width: 500px) {
+    .main-banner {
+        h1 {
+            max-width: 450px;
+            font-size: 2.125em;
+
+        }
+
+    }
+}
+
+@media (min-width: 640px) {
+    .main-banner {
+        h1 {
+            font-size: 2.45em;
+            max-width: 500px;
+        }
+        p {
+            font-size: 1.125em;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .main-banner {
+        h1 {
+            text-align: center;
+            max-width: initial;
+        }
+        p {
+            text-align: center;
+            max-width: initial;
+        }
+        .arrow-container {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-banner {
+        padding-top: 140px;
+        height: 500px;
+        h1 {
+            font-size: 3em;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .main-banner {
+        h1 {
+            font-size: 3.4em;
+        }
+        p {
+            font-size: 1.25em;
+        }
     }
 }
