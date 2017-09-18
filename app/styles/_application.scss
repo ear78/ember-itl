@@ -4,8 +4,13 @@
 $black: #101010;
 $white: #ffffff;
 $teal: #1a7f80;
+$montserrat: 'Montserrat', sans-serif;
+$lato: 'Lato', sans-serif;
 
 /* FOUNDATION RESETS */
+body,p,h1,h2,h3,h4,h5,h6 {
+    font-family: $montserrat;
+}
 button {
     margin: 0;
 }
