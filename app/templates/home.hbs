@@ -1,17 +1,9 @@
 {{main-banner}}
 
-<h1>Featured Products</h1>
+<h1 class="basic-title">Featured Products</h1>
 
-{{#each model as |product|}}
-    <div class="row">
-        <div class="small-12 medium-6 columns">
-            <img src="{{product.image}}" alt="">
-        </div>
-        <div class="small-12 medium-6 columns">
-            <h2>{{product.title}}</h2>
-            <h5>{{product.description}}</h5>
-        </div>
 
-    </div>
-    {{/each}}
+{{#each model as |products|}}
+        {{featured-products product=products}}
+{{/each}}
 {{outlet}}
