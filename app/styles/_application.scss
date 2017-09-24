@@ -3,6 +3,7 @@
 /* COLORS */
 $black: #101010;
 $white: #ffffff;
+$btnDefault: #2788b7;
 $teal: #1a7f80;
 $montserrat: 'Montserrat', sans-serif;
 $lato: 'Lato', sans-serif;
@@ -12,11 +13,13 @@ body,p,h1,h2,h3,h4,h5,h6 {
     font-family: $montserrat;
 }
 
-button {
+.button {
     margin: 0;
+    background-color: $btnDefault;
+    border-radius: 3px;
 }
 
-ul,li {
+ul,li,ul ul {
     list-style: none;
     margin: 0;
 }
