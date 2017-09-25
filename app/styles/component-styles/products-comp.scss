@@ -1,0 +1,28 @@
+& {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    h3 {
+        border-bottom: 1px solid $lightgray;
+        color: $btnDefault;
+        font-weight: 600;
+    }
+    p{
+        color: $gray;
+        font-weight: 600;
+        font-size: .8em;
+    }
+    img {
+        max-width: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .product-logo {
+        display: none;
+        width: 40px;
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+    }
+}

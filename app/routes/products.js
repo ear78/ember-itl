@@ -5,27 +5,39 @@ export default Ember.Route.extend({
         return [
             {
                 id: 1,
-                title: 'product 1',
-                description: 'This is the description for product 1',
-                image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg'
+                title: 'ILS-3600-0IR',
+                description: 'Dual LED Lighting System w/Infrared',
+                image: '/assets/images/products/ILS-3600-000_CLOSED_1_T.png'
             },
             {
                 id: 2,
-                title: 'product 2',
-                description: 'This is the description for product 2',
-                image: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg'
+                title: 'ILS-3600-CAT-IR',
+                description: 'Medium Intensity Catenary Dual System',
+                image: '/assets/images/products/ILS-3600-CAT_T.png'
             },
             {
                 id: 3,
-                title: 'product 3',
-                description: 'This is the description for product 3',
-                image: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg'
+                title: 'ILS-2600-OIR',
+                description: 'White LED Lighting System w/Infrared',
+                image: '/assets/images/products/ILS-3600-000_CLOSED_1_T.png'
             },
             {
                 id: 4,
-                title: 'product 4',
-                description: 'This is the description for product 4',
-                image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg'
+                title: 'ILS-2600-CAT-IR',
+                description: 'Medium Intensity Catenary White System',
+                image: '/assets/images/products/ILS-3600-CAT_T.png'
+            },
+            {
+                id: 5,
+                title: 'ILS-D1RW-8SP',
+                description: 'Dual LED Lighting System',
+                image: '/assets/images/products/ILS-D1RW-8SP_CLOSED_1_T.png'
+            },
+            {
+                id: 6,
+                title: 'IFH-1710-000',
+                description: 'Wind Turbine Lighting System',
+                image: '/assets/images/products/IFH-1710-000_CLOSED_1_T.png'
             },
         ]
     }
