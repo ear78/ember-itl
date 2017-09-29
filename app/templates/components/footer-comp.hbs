@@ -2,6 +2,7 @@
     <img src="/assets/images/itl_logo_classic.svg" alt="ITL Logo">
     <div class="left text-center medium-5 column">
         <h5>Connect With ITL</h5>
+
         <ul class="social-container">
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -9,14 +10,15 @@
             <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </ul>
+
     </div>
     <div class="right medium-7 text-center column">
         <ul class="footer-right-columns">
             <h6>About</h6>
-            <a href=""><li>About ITL</li></a>
-            <a href=""><li>News</li></a>
-            <a href="#"><li>Events</li></a>
-            <a href="#"><li>Careers</li></a>
+                <a href=""><li>About ITL</li></a>
+                <a href=""><li>News</li></a>
+                <a href="#"><li>Events</li></a>
+                <a href="#"><li>Careers</li></a>
         </ul>
         <ul class="footer-right-columns">
             <h6>Services</h6>
@@ -36,11 +38,13 @@
 
     <div class="right-mobile medium-7 text-center column">
         <ul class="footer-right-columns">
-            <h6>About</h6>
+            <h6 {{action 'toggleFooterDrop'}}>About</h6>
+            {{#if isFooterDrop}}
             <a href=""><li>About ITL</li></a>
             <a href=""><li>News</li></a>
             <a href="#"><li>Events</li></a>
             <a href="#"><li>Careers</li></a>
+            {{/if}}
         </ul>
         <ul class="footer-right-columns">
             <h6>Services</h6>
