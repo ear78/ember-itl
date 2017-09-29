@@ -1,0 +1,32 @@
+& {
+    .products-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background: $lightgray;
+        padding: 5px 0;
+        border-bottom: 1px solid $lightgray;
+        flex-direction: column;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    img {
+        width: 34px;
+    }
+    .drop-down {
+        display: none;
+        width: 90%;
+        padding: 20px 0;
+        li {
+            border-bottom: 1px solid lightgray;
+            margin: 10px 0;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+    .drop-active {
+        display: block;
+    }
+}
