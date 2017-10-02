@@ -5,6 +5,9 @@ export default Ember.Component.extend({
     actions: {
         toggleFooterDrop() {
             this.toggleProperty('isFooterDrop')
+
+
+
         }
     }
 });

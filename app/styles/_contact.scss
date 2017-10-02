@@ -1,0 +1,25 @@
+.contact {
+    .grey-background {
+        border-radius: 3px;
+        margin: 10px;
+    }
+
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: $gray;
+    }
+    .newsletter {
+        border-top: 15px solid $gray;
+        background: $lightgray;
+        margin: 50px 0 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .basic-form {
+        max-width: 500px;
+        margin: auto;
+        padding: 0 10px;
+    }
+}

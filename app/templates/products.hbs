@@ -1,8 +1,10 @@
 
 {{ products-menu }}
 
-{{#each model as |product|}}
-    {{ products-comp product=product }}
-{{/each}}
+<div class="row">
+    {{#each model as |product|}}
+        {{ products-comp product=product }}
+    {{/each}}
+</div>
 
 {{outlet}}

@@ -20,7 +20,7 @@ export default Ember.Route.extend({
                     id: 'ILS-3600',
                     title: 'ILS-3600 Dual LED Lighting System',
                     description: 'ITL\'s new dual LED lighting system includes Infrared LED operation and optional internal monitoring for advanced diagnostics.',
-                    image: '/assets/images/ILS-3600-000_CLOSED_1_T_1000.png'
+                    image: '/assets/images/ILS-3600-shadow.png'
                 }
 
         ]

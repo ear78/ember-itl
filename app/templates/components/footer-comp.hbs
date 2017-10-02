@@ -36,6 +36,7 @@
         </ul>
     </div>
 
+    <!-- MOBILE FOOTER MENU -->
     <div class="right-mobile medium-7 text-center column">
         <ul class="footer-right-columns">
             <h6 {{action 'toggleFooterDrop'}}>About</h6>
@@ -47,18 +48,22 @@
             {{/if}}
         </ul>
         <ul class="footer-right-columns">
-            <h6>Services</h6>
+            <h6 onclick={{action 'toggleFooterDrop' isFooterDrop}}>Services</h6>
+            {{#if isFooterDrop}}
             <a href="#"><li>Training</li></a>
             <a href="#"><li>Repair Service</li></a>
             <a href="#"><li>Web Portal</li></a>
             <a href="#"><li>iNOCC</li></a>
+            {{/if}}
         </ul>
         <ul class="footer-right-columns">
-            <h6>Contact</h6>
+            <h6 onclick={{action 'toggleFooterDrop'}}>Contact</h6>
+            {{#if isFooterDrop}}
             <a href="#"><li>Contact Us</li></a>
             <a href="#"><li>FAA Guidelines</li></a>
             <a href="#"><li>Privacy Policy</li></a>
             <a href="#"><li>Contact Sales</li></a>
+            {{/if}}
         </ul>
     </div>
 
